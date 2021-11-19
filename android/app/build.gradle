@@ -195,6 +195,11 @@ dependencies {
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
+    //React native splash screen
+    implementation project(':react-native-splash-screen')
+
+    implementation 'org.jetbrains:annotations:16.0.2'
+
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
         exclude group:'com.facebook.fbjni'
     }

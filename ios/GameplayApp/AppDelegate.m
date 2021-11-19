@@ -23,7 +23,14 @@ static void InitializeFlipper(UIApplication *application) {
 }
 #endif
 
+
+
 @implementation AppDelegate
+
+- (void) applicationDidFinishLaunching:(UIApplication*)application
+{
+   [NSThread sleepForTimeInterval:3.5];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
